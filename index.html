@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d97294832d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="header">
+
+            <nav>
+                <h3 class="logo"><span>P</span>rajwal.</h3>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack Developer</p>
+
+                <h1>
+                    Hi, I'm <span>Prajwal</span><br>Bawane From India
+                </h1>
+                <div class="image-container">
+                    <svg viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path
+                                d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path
+                                d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            <image xlink:href="user6.jpg" width="200" height="187" />
+                        </g>
+                    </svg>
+
+
+                </div>
+            </div>
+            <div class="contact">
+                <button>Contact me</button>
+            </div>
+
+        </div>
+        </div>
+        <div id="about">
+
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="myphoto.png" alt="Profile Picture">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Welcome to my portfolio! I'm Prajwal Bawane, a passionate and driven Full-Stack Developer
+                        currently based in Nagpur. With a strong foundation in Computer Science Engineering from GWCET,
+                        Nagpur, and an ongoing commitment to enhancing my skills, I'm dedicated to crafting exceptional
+                        digital experiences and solving complex problems through technology.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Interest</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Basic HTML</li>
+                            <li><span>CSS</span><br>Basic CSSs</li>
+                            <li><span>App development</span><br>Building Android /iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>no</span><br>No Experience</li>
+                            <li><span></span><br>Web app development</li>
+                            <li><span></span><br>Building Android /iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web /App interfaces</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>App development</span><br>Building Android /iOS apps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services -->
+        <section id="services">
+
+            <h2 class="sub-title">My Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Design</h3>
+                    <p>As a full-stack web designer, I offer a comprehensive suite of services to help
+                        businesses
+                        establish and enhance their online presence. From custom web application development to
+                        responsive website design, I specialize in creating visually stunning and user-friendly
+                        websites
+                        that captivate audiences across devices. Additionally, my expertise extends to
+                        e-commerce
+                        solutions, content management systems (CMS), and web security services, ensuring robust
+                        and
+                        secure online experiences. With a focus on ongoing maintenance and support, I strive to
+                        provide
+                        seamless and reliable solutions that empower clients to thrive in the digital landscape.
+                        Whether
+                        it's creating brand-new websites or revamping existing ones, I am committed to
+                        delivering
+                        innovative and tailored solutions that drive results.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h3>App Design</h3>
+                    <p>As a full-stack web designer, I offer a comprehensive suite of services to help
+                        businesses
+                        establish and enhance their online presence. From custom web application development to
+                        responsive website design, I specialize in creating visually stunning and user-friendly
+                        websites
+                        that captivate audiences across devices. Additionally, my expertise extends to
+                        e-commerce
+                        solutions, content management systems (CMS), and web security services, ensuring robust
+                        and
+                        secure online experiences. With a focus on ongoing maintenance and support, I strive to
+                        provide
+                        seamless and reliable solutions that empower clients to thrive in the digital landscape.
+                        Whether
+                        it's creating brand-new websites or revamping existing ones, I am committed to
+                        delivering
+                        innovative and tailored solutions that drive results.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h3>UX/UI</h3>
+                    <p>As a full-stack web designer, I offer a comprehensive suite of services to help
+                        businesses
+                        establish and enhance their online presence. From custom web application development to
+                        responsive website design, I specialize in creating visually stunning and user-friendly
+                        websites
+                        that captivate audiences across devices. Additionally, my expertise extends to
+                        e-commerce
+                        solutions, content management systems (CMS), and web security services, ensuring robust
+                        and
+                        secure online experiences. With a focus on ongoing maintenance and support, I strive to
+                        provide
+                        seamless and reliable solutions that empower clients to thrive in the digital landscape.
+                        Whether
+                        it's creating brand-new websites or revamping existing ones, I am committed to
+                        delivering
+                        innovative and tailored solutions that drive results.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio">
+
+            <h2 class="sub-title">My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <div class="layer">
+                        <a href="#"></a>
+                    </div>
+                    <img src="work-2.png" alt="Work 2">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to talented people around the world. Download it from the
+                            app store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="Work 2">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to talented people around the world. Download it from the
+                            app store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="Work 3">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to talented people around the world. Download it from the
+                            app store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn ">See more</a>
+
+        </section>
+        <!-- contact -->
+        <section id="contact">
+
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mhprajwalbawane@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+919579288360</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    copyright @ Prajwal. 2024<i class="fa-solid fa-heart"></i>
+                </p>
+            </div>
+            <p></p>
+        </section>
+
+
+    </div>
+
+
+</body>
+
+</html>
+
+<script src="script.js"></script>
